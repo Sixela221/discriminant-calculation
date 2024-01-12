@@ -3,7 +3,7 @@
 using namespace std;
 
 double distance(double Xa, double Ya, double Xb, double Yb) {
-    // Utilise le théorème de Pythagore pour calculer la distance
+    // Use the Pythagorean theorem to calculate the distance
     double dist = sqrt(pow(Xb - Xa, 2) + pow(Yb - Ya, 2));
     return dist;
 }
@@ -11,7 +11,7 @@ double distance(double Xa, double Ya, double Xb, double Yb) {
 int main() {
     double Xa, Ya, Xb, Yb;
 
-    // Demander à l'utilisateur de saisir les coordonnées
+    // Ask user to enter contact details
     cout << "Entrez les coordonnees du point A (Xa): ";
     cin >> Xa;
     cout << "Entrez les coordonnees du point A (Ya): ";
